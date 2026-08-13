@@ -1,77 +1,168 @@
 ! ============================================================
-! Meta Quest — Tracker & Telemetry Blocklist
-! AdGuard / AdBlock syntax
-!
-! Focus:
-! - Meta / Facebook / Oculus telemetry
-! - Meta Quest analytics
-! - Unity analytics used by Quest apps
-! - Google telemetry / beacons
-! - Amazon telemetry observed in Quest traffic
-! - Other analytics endpoints observed in Oculus/Quest ecosystem
-!
-! NOTE:
-! Some Meta/Oculus endpoints may also affect Store, updates,
-! social features, casting, Link or other Quest functionality.
+! META QUEST — Tracker / Telemetry / Store Blocklist
+! AdGuard format
 ! ============================================================
 
 
 ! ============================================================
-! META / FACEBOOK / OCULUS
+! META / TELEMETRY / ANALYTICS
 ! ============================================================
 
-||b-www.facebook.com^
-||edge-mqtt.facebook.com^
-||edge-mqtt-fallback.facebook.com^
-||gateway.facebook.com^
 ||graph.facebook.com^
-||graph.facebook-hardware.com^
-||graph-fallback.oculus.com^
+||graph.facebook.net^
 ||graph.oculus.com^
-||lookaside.facebook.com^
-||meta-ai-realtime.facebook.com^
-||meta.graph.meta.com^
-||mqtt-mini.facebook.com^
-||nqtt-mini.facebook.com^
-||portal.fb.com^
-||prod.facebookvirtualassistant.com^
-||www.facebook.com^
-||www.meta.com^
-||www.oculus.com^
+||graph-fallback.oculus.com^
 
-
-! ============================================================
-! META / FACEBOOK ANALYTICS & TELEMETRY
-! ============================================================
+||b-graph.facebook.com^
 
 ||analytics.facebook.com^
 ||mobile-analytics.facebook.com^
 ||mobile-telemetry.facebook.com^
+
+||logging.facebook.com^
 ||pixel.facebook.com^
-||crash.facebook.com^
-||crashlogs.facebook.com^
 ||beacon.facebook.com^
 ||tr.facebook.com^
 
+||crash.facebook.com^
+||crashlogs.facebook.com^
 
-! ============================================================
-! META / MINERVA TELEMETRY
-! ============================================================
+||connect.facebook.net^
+
+||edge-mqtt.facebook.com^
+||edge-mqtt-fallback.facebook.com^
+||mqtt-mini.facebook.com^
+||nqtt-mini.facebook.com^
+
+||gateway.facebook.com^
+||upload.facebook.com^
+||rupload.facebook.com^
+
+||realitylabs-graph.facebook.com^
+||shortwave.facebook.com^
+
+||meta-ai-realtime.facebook.com^
+||meta.graph.meta.com^
+||meta.graph.facebook.com^
+
+||lookaside.facebook.com^
+||lookaside.fbsbx.com^
+
+||star.c10r.facebook.com^
+||b-www.facebook.com^
+
+||prod.facebookvirtualassistant.com^
 
 ||*.us-east-1.prod.service.minerva.^
 
+
 ! ============================================================
-! OCULUS / META CDN & AUXILIARY ENDPOINTS
+! META / PRESENCE / SOCIAL / HORIZON
 ! ============================================================
+
+||presence.oculus.com^
+||social.oculus.com^
+||horizon.meta.com^
+
+||portal.fb.com^
+
+||messenger.com^
+||www.messenger.com^
+||msngr.com^
+||www.msngr.com^
+
+||m.me^
+||www.m.me^
+
+||familycenter.messenger.com^
+
+
+! ============================================================
+! META / AUTH / ACCOUNT / DEVICE
+! ============================================================
+
+||secure.oculus.com^
+||auth.oculus.com^
+||api.oculus.com^
+
+||oculus.com^
+||meta.com^
+
+||facebook.com^
+||facebook.net^
+
+||fbsbx.com^
+||fb.me^
+
+||graph.facebook-hardware.com^
+
+
+! ============================================================
+! META QUEST STORE / ENTITLEMENTS
+! ============================================================
+
+||store.oculus.com^
 
 ||securecdn.oculus.com^
+||cdn.oculus.com^
+||securecdn-ams4-1.oculus.com^
+
 ||oculuscdn.com^
+||ugc.oculuscdn.com^
 ||scontent.oculuscdn.com^
-||rupload.facebook.com^
+
+||cdn.fbsbx.com^
+
+||static.xx.fbcdn.net^
+||fbcdn.net^
+||fbcdn.com^
+
+||scontent.xx.fbcdn.net^
+
+||scontent-ams4-1.oculuscdn.com^
+||scontent-ams2-1.oculuscdn.com^
+
+||scontent-ams4-1.xx.fbcdn.net^
+||scontent-ams2-1.xx.fbcdn.net^
+
+||scontent-ord5-2.xx.fbcdn.net^
+||scontent-ord5-1.xx.fbcdn.net^
+
+||scontent-man2-1.xx.fbcdn.net^
+||scontent-lhr6-2.xx.fbcdn.net^
+
+||scontent-lga3-3.xx.fbcdn.net^
+||scontent-lax3-1.xx.fbcdn.net^
+
+||scontent-dfw5-3.xx.fbcdn.net^
+||scontent-det1-1.xx.fbcdn.net^
+
+||scontent-atl3-1.xx.fbcdn.net^
+
+||scontent.fluk1-1.fna.fbcdn.net^
+||scontent.fcps3-1.fna.fbcdn.net^
+||scontent.fagc3-2.fna.fbcdn.net^
+||scontent.fagc3-1.fna.fbcdn.net^
 
 
 ! ============================================================
-! UNITY TELEMETRY / ANALYTICS
+! META QUEST UPDATES / FIRMWARE
+! ============================================================
+
+||software.oculus.com^
+||update.oculus.com^
+
+
+! ============================================================
+! META QUEST MEDIA / STREAMING
+! ============================================================
+
+||video.oculus.com^
+||media.oculuscdn.com^
+
+
+! ============================================================
+! UNITY TELEMETRY
 ! ============================================================
 
 ||cdp.cloud.unity3d.com^
@@ -85,6 +176,7 @@
 ! ============================================================
 
 ||888316-android-ds.metric.gstatic.com^
+
 ||beacons.gcp.gvt2.com^
 ||beacons.gvt2.com^
 ||beacons2.gvt2.com^
@@ -95,7 +187,7 @@
 
 
 ! ============================================================
-! GOOGLE / FIREBASE ANALYTICS & CRASH REPORTING
+! GOOGLE / FIREBASE CRASH REPORTING
 ! ============================================================
 
 ||google-analytics.com^
@@ -113,7 +205,7 @@
 
 
 ! ============================================================
-! OTHER ANALYTICS OBSERVED IN OCULUS / QUEST TRAFFIC
+! OTHER ANALYTICS
 ! ============================================================
 
 ||logs-01.loggly.com^
@@ -122,7 +214,8 @@
 
 
 ! ============================================================
-! ADDITIONAL TELEMETRY / CLOUD ENDPOINT
+! MISC CLOUD BACKEND
 ! ============================================================
 
 ||64qx6jnt0a.execute-api.cn-north-1.amazonaws.com.cn^
+
