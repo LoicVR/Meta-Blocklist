@@ -1,0 +1,128 @@
+! ============================================================
+! Meta Quest — Tracker & Telemetry Blocklist
+! AdGuard / AdBlock syntax
+!
+! Focus:
+! - Meta / Facebook / Oculus telemetry
+! - Meta Quest analytics
+! - Unity analytics used by Quest apps
+! - Google telemetry / beacons
+! - Amazon telemetry observed in Quest traffic
+! - Other analytics endpoints observed in Oculus/Quest ecosystem
+!
+! NOTE:
+! Some Meta/Oculus endpoints may also affect Store, updates,
+! social features, casting, Link or other Quest functionality.
+! ============================================================
+
+
+! ============================================================
+! META / FACEBOOK / OCULUS
+! ============================================================
+
+||b-www.facebook.com^
+||edge-mqtt.facebook.com^
+||edge-mqtt-fallback.facebook.com^
+||gateway.facebook.com^
+||graph.facebook.com^
+||graph.facebook-hardware.com^
+||graph-fallback.oculus.com^
+||graph.oculus.com^
+||lookaside.facebook.com^
+||meta-ai-realtime.facebook.com^
+||meta.graph.meta.com^
+||mqtt-mini.facebook.com^
+||nqtt-mini.facebook.com^
+||portal.fb.com^
+||prod.facebookvirtualassistant.com^
+||www.facebook.com^
+||www.meta.com^
+||www.oculus.com^
+
+
+! ============================================================
+! META / FACEBOOK ANALYTICS & TELEMETRY
+! ============================================================
+
+||analytics.facebook.com^
+||mobile-analytics.facebook.com^
+||mobile-telemetry.facebook.com^
+||pixel.facebook.com^
+||crash.facebook.com^
+||crashlogs.facebook.com^
+||beacon.facebook.com^
+||tr.facebook.com^
+
+
+! ============================================================
+! META / MINERVA TELEMETRY
+! ============================================================
+
+||*.us-east-1.prod.service.minerva.^
+
+! ============================================================
+! OCULUS / META CDN & AUXILIARY ENDPOINTS
+! ============================================================
+
+||securecdn.oculus.com^
+||oculuscdn.com^
+||scontent.oculuscdn.com^
+||rupload.facebook.com^
+
+
+! ============================================================
+! UNITY TELEMETRY / ANALYTICS
+! ============================================================
+
+||cdp.cloud.unity3d.com^
+||config.uca.cloud.unity3d.com^
+||perf-events.cloud.unity3d.com^
+||userreporting.cloud.unity3d.com^
+
+
+! ============================================================
+! GOOGLE TELEMETRY / BEACONS
+! ============================================================
+
+||888316-android-ds.metric.gstatic.com^
+||beacons.gcp.gvt2.com^
+||beacons.gvt2.com^
+||beacons2.gvt2.com^
+||beacons3.gvt2.com^
+||beacons4.gvt2.com^
+||beacons5.gvt2.com^
+||beacons5.gvt3.com^
+
+
+! ============================================================
+! GOOGLE / FIREBASE ANALYTICS & CRASH REPORTING
+! ============================================================
+
+||google-analytics.com^
+||firebase-settings.crashlytics.com^
+||crashlytics.com^
+
+
+! ============================================================
+! AMAZON TELEMETRY
+! ============================================================
+
+||arcus-uswest.amazon.com^
+||global.telemetry.insights.video.a2z.com^
+||prod.us-east-1.sonar.prime-video.amazon.dev^
+
+
+! ============================================================
+! OTHER ANALYTICS OBSERVED IN OCULUS / QUEST TRAFFIC
+! ============================================================
+
+||logs-01.loggly.com^
+||api.mixpanel.com^
+||api2.amplitude.com^
+
+
+! ============================================================
+! ADDITIONAL TELEMETRY / CLOUD ENDPOINT
+! ============================================================
+
+||64qx6jnt0a.execute-api.cn-north-1.amazonaws.com.cn^
