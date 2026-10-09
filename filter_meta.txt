@@ -111,38 +111,38 @@
 ! ||ugc.oculuscdn.com^
 ! ||scontent.oculuscdn.com^
 
-||cdn.fbsbx.com^
+! ||cdn.fbsbx.com^
 
-||static.xx.fbcdn.net^
-||fbcdn.net^
-||fbcdn.com^
+! ||static.xx.fbcdn.net^
+! ||fbcdn.net^
+! ||fbcdn.com^
 
-||scontent.xx.fbcdn.net^
+! ||scontent.xx.fbcdn.net^
 
-||scontent-ams4-1.oculuscdn.com^
-||scontent-ams2-1.oculuscdn.com^
+! ||scontent-ams4-1.oculuscdn.com^
+! ||scontent-ams2-1.oculuscdn.com^
 
-||scontent-ams4-1.xx.fbcdn.net^
-||scontent-ams2-1.xx.fbcdn.net^
+! ||scontent-ams4-1.xx.fbcdn.net^
+! ||scontent-ams2-1.xx.fbcdn.net^
 
-||scontent-ord5-2.xx.fbcdn.net^
-||scontent-ord5-1.xx.fbcdn.net^
+! ||scontent-ord5-2.xx.fbcdn.net^
+! ||scontent-ord5-1.xx.fbcdn.net^
 
-||scontent-man2-1.xx.fbcdn.net^
-||scontent-lhr6-2.xx.fbcdn.net^
+! ||scontent-man2-1.xx.fbcdn.net^
+! ||scontent-lhr6-2.xx.fbcdn.net^
 
-||scontent-lga3-3.xx.fbcdn.net^
-||scontent-lax3-1.xx.fbcdn.net^
+! ||scontent-lga3-3.xx.fbcdn.net^
+! ||scontent-lax3-1.xx.fbcdn.net^
 
-||scontent-dfw5-3.xx.fbcdn.net^
-||scontent-det1-1.xx.fbcdn.net^
+! ||scontent-dfw5-3.xx.fbcdn.net^
+! ||scontent-det1-1.xx.fbcdn.net^
 
-||scontent-atl3-1.xx.fbcdn.net^
+! ||scontent-atl3-1.xx.fbcdn.net^
 
-||scontent.fluk1-1.fna.fbcdn.net^
-||scontent.fcps3-1.fna.fbcdn.net^
-||scontent.fagc3-2.fna.fbcdn.net^
-||scontent.fagc3-1.fna.fbcdn.net^
+! ||scontent.fluk1-1.fna.fbcdn.net^
+! ||scontent.fcps3-1.fna.fbcdn.net^
+! ||scontent.fagc3-2.fna.fbcdn.net^
+! ||scontent.fagc3-1.fna.fbcdn.net^
 
 
 ! ============================================================
@@ -157,8 +157,8 @@
 ! META QUEST MEDIA / STREAMING
 ! ============================================================
 
-||video.oculus.com^
-||media.oculuscdn.com^
+! ||video.oculus.com^
+! ||media.oculuscdn.com^
 
 
 ! ============================================================
