@@ -101,15 +101,15 @@
 ! META QUEST STORE / ENTITLEMENTS
 ! ============================================================
 
-||store.oculus.com^
+! ||store.oculus.com^
 
-||securecdn.oculus.com^
-||cdn.oculus.com^
-||securecdn-ams4-1.oculus.com^
+! ||securecdn.oculus.com^
+! ||cdn.oculus.com^
+! ||securecdn-ams4-1.oculus.com^
 
-||oculuscdn.com^
-||ugc.oculuscdn.com^
-||scontent.oculuscdn.com^
+! ||oculuscdn.com^
+! ||ugc.oculuscdn.com^
+! ||scontent.oculuscdn.com^
 
 ||cdn.fbsbx.com^
 
