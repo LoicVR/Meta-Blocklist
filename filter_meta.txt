@@ -10,7 +10,7 @@
 
 ||graph.facebook.com^
 ||graph.facebook.net^
-@@||graph.oculus.com^
+||graph.oculus.com^
 ||graph-fallback.oculus.com^
 
 ||b-graph.facebook.com^
@@ -105,7 +105,7 @@
 
 @@||securecdn.oculus.com^
 @@||cdn.oculus.com^
-||securecdn-ams4-1.oculus.com^
+@@||securecdn-ams4-1.oculus.com^
 
 @@||oculuscdn.com^
 @@||ugc.oculuscdn.com^
@@ -149,8 +149,8 @@
 ! META QUEST UPDATES / FIRMWARE
 ! ============================================================
 
-||software.oculus.com^
-||update.oculus.com^
+@@||software.oculus.com^
+@@||update.oculus.com^
 
 
 ! ============================================================
