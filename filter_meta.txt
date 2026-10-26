@@ -219,3 +219,10 @@
 
 ||64qx6jnt0a.execute-api.cn-north-1.amazonaws.com.cn^
 
+
+! ============================================================
+! VARIOUS APPLICATIONS
+! ============================================================
+
+||backend-test.skybox.xyz^
+
