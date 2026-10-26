@@ -224,5 +224,7 @@
 ! VARIOUS APPLICATIONS
 ! ============================================================
 
+||backend.skybox.xyz^
 ||backend-test.skybox.xyz^
+||thinking-data2.skybox.xyz^
 
