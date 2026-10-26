@@ -227,4 +227,6 @@
 ||backend.skybox.xyz^
 ||backend-test.skybox.xyz^
 ||thinking-data2.skybox.xyz^
+||api.playavr.com^
+||cdn.playavr.com^
 
