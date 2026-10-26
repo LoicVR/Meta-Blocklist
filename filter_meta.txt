@@ -83,7 +83,7 @@
 
 ||secure.oculus.com^
 ||auth.oculus.com^
-@@||api.oculus.com^
+||api.oculus.com^
 
 ||oculus.com^
 ||meta.com^
@@ -101,15 +101,15 @@
 ! META QUEST STORE / ENTITLEMENTS
 ! ============================================================
 
-@@||store.oculus.com^
+||store.oculus.com^
 
-@@||securecdn.oculus.com^
-@@||cdn.oculus.com^
-@@||securecdn-ams4-1.oculus.com^
+||securecdn.oculus.com^
+||cdn.oculus.com^
+||securecdn-ams4-1.oculus.com^
 
-@@||oculuscdn.com^
-@@||ugc.oculuscdn.com^
-@@||scontent.oculuscdn.com^
+||oculuscdn.com^
+||ugc.oculuscdn.com^
+||scontent.oculuscdn.com^
 
 ||cdn.fbsbx.com^
 
@@ -119,8 +119,8 @@
 
 ||scontent.xx.fbcdn.net^
 
-@@||scontent-ams4-1.oculuscdn.com^
-@@||scontent-ams2-1.oculuscdn.com^
+||scontent-ams4-1.oculuscdn.com^
+||scontent-ams2-1.oculuscdn.com^
 
 ||scontent-ams4-1.xx.fbcdn.net^
 ||scontent-ams2-1.xx.fbcdn.net^
@@ -149,16 +149,16 @@
 ! META QUEST UPDATES / FIRMWARE
 ! ============================================================
 
-@@||software.oculus.com^
-@@||update.oculus.com^
+||software.oculus.com^
+||update.oculus.com^
 
 
 ! ============================================================
 ! META QUEST MEDIA / STREAMING
 ! ============================================================
 
-@@||video.oculus.com^
-@@||media.oculuscdn.com^
+||video.oculus.com^
+||media.oculuscdn.com^
 
 
 ! ============================================================
