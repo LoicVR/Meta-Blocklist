@@ -226,6 +226,8 @@
 
 ||backend.skybox.xyz^
 ||backend-test.skybox.xyz^
+||data-v2.hacs.xyz^
+||manifest.luastools.xyz^
 ||thinking-data2.skybox.xyz^
 ||api.playavr.com^
 ||cdn.playavr.com^
